@@ -1,0 +1,14 @@
+version: "3.0"
+
+services:
+  postgres:
+    container_name: test-postgres
+    image: postgres:14.3
+    environment:
+      - POSTGRES_DB=test
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5433:5432
+    restart: on-failure
+

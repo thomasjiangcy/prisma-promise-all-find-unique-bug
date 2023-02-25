@@ -1,0 +1,29 @@
+{
+  "name": "prisma-promise-all-find-unique-bug",
+  "version": "1.0.0",
+  "description": "Minimally reproducible bug with Prisma's `.findUnique()` and `Promise.all()`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasjiangcy/prisma-promise-all-find-unique-bug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasjiangcy/prisma-promise-all-find-unique-bug/issues"
+  },
+  "homepage": "https://github.com/thomasjiangcy/prisma-promise-all-find-unique-bug#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "prisma": "^4.10.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.10.1"
+  }
+}
